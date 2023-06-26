@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  overflow-y:hidden;
+}
+.App::-webkit-scrollbar{
+  display: none;
 }
 
 .App-logo {
